@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.textlogo-1-icon {
+    width: 418.9px;
+    position: relative;
+    height: 206px;
+    object-fit: contain;
+}
+
+.home {
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 200ms ease-out;
+}
+
+.home:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease-in;
+}
+
+.projects {
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 82px;
+    gap: 18px;
+}
+
+.navbar {
+    align-self: stretch;
+    backdrop-filter: blur(64px);
+    background-color: #3c4c74;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.videohere {
+    align-self: stretch;
+    position: relative;
+    background-image: url(Images/BP1.png);
+    height: 1002px;
+}
+
+.information {
+    position: relative;
+    font-weight: 500;
+}
+
+.informationheader {
+    border-radius: 35px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.informationtext {
+    flex: 1;
+    position: relative;
+}
+
+.informationinfo {
+    align-self: stretch;
+    border-radius: 28px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.overviewofgame {
+    align-self: stretch;
+    background-color: #222a48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 121px;
+    gap: 60px;
+    font-size: 30px;
+}
+
+.homepage {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.homepage a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.homepage a :hover{
+    font-size: 40px;
+}
+
+.previewdot {
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #c8c8c8;
+    height: 20px;
+}
+
+.previewdot2{
+    width: 20px;
+    position: relative;
+    border-radius: 50%;
+    background-color: #c8c8c8;
+    height: 20px;
+}
+
+.projectpreview {
+    align-self: stretch;
+    background-image: url(Images/BP2.png);
+    height: 1002px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 44px 0px;
+    box-sizing: border-box;
+}
+
+.story {
+    position: relative;
+    font-weight: 500;
+}
+
+.informationheader {
+    border-radius: 35px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.TextDisplay {
+    margin: 0;
+    columns: 2;
+}
+
+.informationtext {
+    flex: 1;
+    position: relative;
+}
+
+.informationinfo {
+    align-self: stretch;
+    border-radius: 28px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.overviewofgame {
+    align-self: stretch;
+    background-color: #222a48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 121px;
+    gap: 60px;
+}
+
+.projects {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.projects a :hover{
+    font-size: 40px;
+}
+
+.about-me {
+    position: relative;
+    cursor: pointer;
+}
+
+.experience {
+    position: relative;
+    font-weight: 500;
+}
+
+.informationheader {
+    border-radius: 35px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.the-core-gameplay {
+    margin: 0;
+}
+
+.informationtext {
+    flex: 1;
+    position: relative;
+}
+
+.informationinfo {
+    align-self: stretch;
+    border-radius: 28px;
+    background-color: #44648d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.aboutmeimage {
+    align-self: stretch;
+    position: relative;
+    background-image: url(Images/BP3.png);
+    height: 1002px;
+}
+
+.informationheader-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 129px;
+}
+
+.aboutbox {
+    align-self: stretch;
+    background-color: #222a48;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 80px 40px;
+    gap: 129px;
+}
+
+.aboutsection {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 30px;
+}
+
+.aboutme {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: Inter;
+}
+
+.aboutme a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.about-me a:hover{
+    font-size: 32;
+}
